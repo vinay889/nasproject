@@ -1,0 +1,5 @@
+1608288908365	geckodriver	INFO	Listening on 127.0.0.1:47382
+1608288908392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSmmmFb"
+
+(process:4164): GLib-CRITICAL **: 05:55:08.645: g_slice_set_config: assertion 'sys_page_size == 0' failed
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 677: aUrl is undefined

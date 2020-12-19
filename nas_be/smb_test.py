@@ -1,10 +1,10 @@
 from smb.SMBConnection import SMBConnection
 
-userID="ivtree"
-password="ivtree@123"
-client_machine_name="dell-PC"
-server_name="dell-PC"
-server_ip="192.168.43.242"
+userID="USER1"
+password="vinay143"
+client_machine_name="DESKTOP-92IOI0O"
+server_name="DESKTOP-92IOI0O"
+server_ip="192.168.43.178"
 conn = SMBConnection(userID, password, client_machine_name, server_name, use_ntlm_v2 = True)
 conn.connect(server_ip, 139)
 Response = conn.listShares(timeout=30)

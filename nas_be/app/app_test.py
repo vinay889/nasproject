@@ -67,7 +67,7 @@ def login_user():
 		return make_response('could not verify', 401, {'WWW.Authentication': 'Basic real: "login required"'})
 	try:
 		# Authentication
-		if auth.username == "ivtree" and auth.password == "ivtree@123":
+		if auth.username == "USER1" and auth.password == "vinay143":
 			pass
 		else:
 			return jsonify({"message":"Username or Password is wrong"})
