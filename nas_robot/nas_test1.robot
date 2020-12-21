@@ -3,7 +3,7 @@ Library            SeleniumLibrary
 
 *** Variables ***
 ${LOGIN URL}      http://192.168.43.162:4000
-${BROWSER}        HeadlessChrome
+${BROWSER}        Chrome
 
 
 *** Test Cases ***
